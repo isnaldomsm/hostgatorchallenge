@@ -72,25 +72,7 @@ INSERT INTO `cat_breeds` (`id`, `api_id`, `name`, `temperament`, `life_span`, `a
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `phinxlog`
---
 
-CREATE TABLE `phinxlog` (
-  `version` bigint(20) NOT NULL,
-  `migration_name` varchar(100) DEFAULT NULL,
-  `start_time` timestamp NULL DEFAULT NULL,
-  `end_time` timestamp NULL DEFAULT NULL,
-  `breakpoint` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `phinxlog`
---
-
-INSERT INTO `phinxlog` (`version`, `migration_name`, `start_time`, `end_time`, `breakpoint`) VALUES
-(20190508010636, 'QueryCacheMigration', '2019-05-14 00:31:23', '2019-05-14 00:31:23', 0),
-(20190508010704, 'CatBreedsMigration', '2019-05-14 00:31:23', '2019-05-14 00:31:23', 0);
 
 -- --------------------------------------------------------
 
@@ -123,11 +105,7 @@ INSERT INTO `query_cache` (`id`, `query`, `data`, `created_at`, `updated_at`) VA
 ALTER TABLE `cat_breeds`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `phinxlog`
---
-ALTER TABLE `phinxlog`
-  ADD PRIMARY KEY (`version`);
+
 
 --
 -- Indexes for table `query_cache`
