@@ -12,12 +12,18 @@ Step 2:
 run in the terminal composer serve.
 
 Passo 3:<br>
+executar no banco o arquivo base.sql.<br>
+
+Step 3:<br>
+execute the base.sql file in the database.<br>
+
+Passo 4:<br>
 Get  http://localhost:8001/breeds?name=sib<br>
 Get  http://localhost:XX/breeds?name=a<br>
 Get  http://localhost:XX/breeds?potato=yes<br>
 Get http://localhost:XX/breeds?name=sib<br>
 Get http://localhost:XX/breeds?name=sib<br>
-Step 3:<br>
+Step 4:<br>
 Get  http://localhost:8001/breeds?name=sib<br>
 Get  http://localhost:8001/breeds?name=a<br>
 Get  http://localhost:8001/breeds?potato=yes<br>
