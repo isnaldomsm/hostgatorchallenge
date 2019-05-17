@@ -5,17 +5,19 @@ Modificar o arquivo .env com as configurações locais do banco.
 Step 1:
 Modify the .env file with the local settings of the database.
 
-Passo 2:
+Passo 2:<br>
+executar no banco o arquivo base.sql .
+
+Step 2:<br>
+execute the base.sql file in the database .<br>
+
+Passo 3:
 execute no terminal composer serve .
 
-Step 2:
-run in the terminal composer serve.
+Step 3:
+run in the terminal composer serve .
 
-Passo 3:<br>
-executar no banco o arquivo base.sql.
 
-Step 3:<br>
-execute the base.sql file in the database.<br>
 
 Passo 4:<br>
 Get  http://localhost:8001/breeds?name=sib<br>
