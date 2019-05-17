@@ -1,11 +1,13 @@
 ### Features
 Passo 1:
 Modificar o arquivo .env com as configurações locais do banco.
+
 Step 1:
 Modify the .env file with the local settings of the database.
 
 Passo 2:
 execute no terminal composer serve .
+
 Step 2:
 run in the terminal composer serve.
 
@@ -15,6 +17,7 @@ Get  http://localhost:XX/breeds?name=a
 Get  http://localhost:XX/breeds?potato=yes
 Get http://localhost:XX/breeds?name=sib
 Get http://localhost:XX/breeds?name=sib
+
 Step 3:
 Get  http://localhost:8001/breeds?name=sib
 Get  http://localhost:8001/breeds?name=a
