@@ -1,11 +1,13 @@
 ### Features
 Passo 1:
 Modificar o arquivo .env com as configurações locais do banco.
+
 Step 1:
 Modify the .env file with the local settings of the database.
 
 Passo 2:
 execute no terminal composer serve .
+
 Step 2:
 run in the terminal composer serve.
 
