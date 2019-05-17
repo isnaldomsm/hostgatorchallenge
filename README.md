@@ -10,17 +10,17 @@ Step 2:
 run in the terminal composer serve.
 
 Passo 3:
-Get  http://localhost:8001/breeds?name=sib
-Get  http://localhost:XX/breeds?name=a
-Get  http://localhost:XX/breeds?potato=yes
-Get http://localhost:XX/breeds?name=sib
-Get http://localhost:XX/breeds?name=sib
+Get  http://localhost:8001/breeds?name=sib<br>
+Get  http://localhost:XX/breeds?name=a<br>
+Get  http://localhost:XX/breeds?potato=yes<br>
+Get http://localhost:XX/breeds?name=sib<br>
+Get http://localhost:XX/breeds?name=sib<br>
 Step 3:
-Get  http://localhost:8001/breeds?name=sib
-Get  http://localhost:8001/breeds?name=a
-Get  http://localhost:8001/breeds?potato=yes
-Get http://localhost:8001/breeds?name=sib
-Get http://localhost:8001/breeds?name=sib
+Get  http://localhost:8001/breeds?name=sib<br>
+Get  http://localhost:8001/breeds?name=a<br>
+Get  http://localhost:8001/breeds?potato=yes<br>
+Get http://localhost:8001/breeds?name=sib<br>
+Get http://localhost:8001/breeds?name=sib<br>
 
 Gostaria de agradecer pela oportunidade do teste, fico muito grato com a empresa. Notei que o principal foco da empresa e a humanização :) . Desenvolvi o desafio com muita pesquisa, e bibliotecas que me auxiliaram muito no desenvolvimento. Muito obrigado.
 
