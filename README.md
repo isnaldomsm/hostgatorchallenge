@@ -11,13 +11,13 @@ execute no terminal composer serve .
 Step 2:
 run in the terminal composer serve.
 
-Passo 3:
+Passo 3:<br>
 Get  http://localhost:8001/breeds?name=sib<br>
 Get  http://localhost:XX/breeds?name=a<br>
 Get  http://localhost:XX/breeds?potato=yes<br>
 Get http://localhost:XX/breeds?name=sib<br>
 Get http://localhost:XX/breeds?name=sib<br>
-Step 3:
+Step 3:<br>
 Get  http://localhost:8001/breeds?name=sib<br>
 Get  http://localhost:8001/breeds?name=a<br>
 Get  http://localhost:8001/breeds?potato=yes<br>
